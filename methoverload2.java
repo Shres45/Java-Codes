@@ -1,12 +1,12 @@
 public class methoverload2 {
     void Perimeter(int s){
-        System.out.println("Area of square= "+ (4*s));
+        System.out.println("Perimeter of square= "+ (4*s));
     }
     void Perimeter(int l, int b){
-        System.out.println("Area of rectangle= "+ (2*(l+b)));
+        System.out.println("Perimeter of rectangle= "+ (2*(l+b)));
     }
     void Perimeter(double r){
-        System.out.println("Area of circle= "+ (3.14*r*2));
+        System.out.println("Perimeter of circle= "+ (3.14*r*2));
     }
 
     public static void main(String[] args) {
